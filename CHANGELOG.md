@@ -12,6 +12,13 @@ follows:
    releases, and Linux kernel updates. They're also made to fix bugs and add
    features to the build infrastructure.
 
+## v2.1.2-usblp.1
+
+Fork of nerves_system_rpi3 v2.1.2 for the Raspberry Pi Zero 2 W label printer.
+
+* Changes
+  * Enable `CONFIG_USB_PRINTER` (usblp) so USB printers appear at `/dev/usb/lp0`
+
 ## v2.1.2
 
 This is a security and bug fix release.
