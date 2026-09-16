@@ -1,8 +1,8 @@
-defmodule CustomRpi3.MixProject do
+defmodule PrinterRelayRpi3.MixProject do
   use Mix.Project
 
   @github_organization "tmecklem"
-  @app :custom_rpi3
+  @app :printer_relay_rpi3
   @source_url "https://github.com/#{@github_organization}/#{@app}"
   @version Path.join(__DIR__, "VERSION")
            |> File.read!()

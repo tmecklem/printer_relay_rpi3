@@ -14,7 +14,8 @@ follows:
 
 ## v2.1.2-usblp.1
 
-Fork of nerves_system_rpi3 v2.1.2 for the Raspberry Pi Zero 2 W label printer.
+Fork of nerves_system_rpi3 v2.1.2 for the Raspberry Pi Zero 2 W label printer
+(tmecklem/nerves_printer).
 
 * Changes
   * Enable `CONFIG_USB_PRINTER` (usblp) so USB printers appear at `/dev/usb/lp0`
